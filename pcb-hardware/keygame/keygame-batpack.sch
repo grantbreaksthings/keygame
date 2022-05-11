@@ -1,0 +1,326 @@
+EESchema Schematic File Version 4
+LIBS:keygame-batpack-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6950 2650 6650 2650
+Wire Wire Line
+	6950 2850 6650 2850
+Wire Wire Line
+	6950 2750 6650 2750
+Wire Wire Line
+	6650 2950 6950 2950
+Wire Wire Line
+	6650 3050 6950 3050
+Wire Wire Line
+	6650 3150 6950 3150
+$Comp
+L power:+3V3 #PWR0120
+U 1 1 623F850D
+P 6900 3550
+F 0 "#PWR0120" H 6900 3400 50  0001 C CNN
+F 1 "+3V3" V 6915 3678 50  0000 L CNN
+F 2 "" H 6900 3550 50  0001 C CNN
+F 3 "" H 6900 3550 50  0001 C CNN
+	1    6900 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 623F8513
+P 6900 3650
+F 0 "#PWR0121" H 6900 3400 50  0001 C CNN
+F 1 "GND" V 6905 3522 50  0000 R CNN
+F 2 "" H 6900 3650 50  0001 C CNN
+F 3 "" H 6900 3650 50  0001 C CNN
+	1    6900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 623F9CB8
+P 6900 3750
+F 0 "#PWR0122" H 6900 3600 50  0001 C CNN
+F 1 "+5V" V 6915 3878 50  0000 L CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 623FCB20
+P 6900 3850
+F 0 "#PWR0123" H 6900 3600 50  0001 C CNN
+F 1 "GND" V 6905 3722 50  0000 R CNN
+F 2 "" H 6900 3850 50  0001 C CNN
+F 3 "" H 6900 3850 50  0001 C CNN
+	1    6900 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 623FCCF9
+P 6900 4550
+F 0 "#PWR0124" H 6900 4300 50  0001 C CNN
+F 1 "GND" V 6905 4422 50  0000 R CNN
+F 2 "" H 6900 4550 50  0001 C CNN
+F 3 "" H 6900 4550 50  0001 C CNN
+	1    6900 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 3550 6950 3550
+Wire Wire Line
+	6900 3650 6950 3650
+Wire Wire Line
+	6900 3750 6950 3750
+Wire Wire Line
+	6900 3850 6950 3850
+Wire Wire Line
+	6950 4550 6900 4550
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6240EA5B
+P 5450 5000
+F 0 "H3" H 5550 5051 50  0000 L CNN
+F 1 "MOUNT" H 5550 4960 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5450 5000 50  0001 C CNN
+F 3 "~" H 5450 5000 50  0001 C CNN
+	1    5450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6240EC7C
+P 5000 5000
+F 0 "H2" H 5100 5051 50  0000 L CNN
+F 1 "MOUNT" H 5100 4960 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5000 5000 50  0001 C CNN
+F 3 "~" H 5000 5000 50  0001 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6240F026
+P 4550 5000
+F 0 "H1" H 4650 5051 50  0000 L CNN
+F 1 "MOUNT" H 4650 4960 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4550 5000 50  0001 C CNN
+F 3 "~" H 4550 5000 50  0001 C CNN
+	1    4550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 62412846
+P 5900 5000
+F 0 "H4" H 6000 5051 50  0000 L CNN
+F 1 "MOUNT" H 6000 4960 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5900 5000 50  0001 C CNN
+F 3 "~" H 5900 5000 50  0001 C CNN
+	1    5900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 624183AF
+P 5900 5200
+F 0 "#PWR0125" H 5900 4950 50  0001 C CNN
+F 1 "GND" H 5905 5027 50  0000 C CNN
+F 2 "" H 5900 5200 50  0001 C CNN
+F 3 "" H 5900 5200 50  0001 C CNN
+	1    5900 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5100 4550 5150
+Wire Wire Line
+	4550 5150 5000 5150
+Wire Wire Line
+	5900 5150 5900 5200
+Wire Wire Line
+	5900 5100 5900 5150
+Connection ~ 5900 5150
+Wire Wire Line
+	5450 5100 5450 5150
+Connection ~ 5450 5150
+Wire Wire Line
+	5450 5150 5900 5150
+Wire Wire Line
+	5000 5100 5000 5150
+Connection ~ 5000 5150
+Wire Wire Line
+	5000 5150 5450 5150
+Text Label 6650 2950 2    50   ~ 0
+SCREEN_DC
+Text Label 6650 2850 2    50   ~ 0
+SCREEN_RST
+Text Label 6650 2650 2    50   ~ 0
+SCK
+Text Label 6650 2750 2    50   ~ 0
+MOSI
+Text Label 6650 3050 2    50   ~ 0
+SCREEN_CS
+Text Label 6650 3150 2    50   ~ 0
+BUTTON_MISO
+Text Label 6650 3350 2    50   ~ 0
+BUTTON_LATCH
+Text Label 6650 3250 2    50   ~ 0
+BUTTON_CLK
+Wire Wire Line
+	6650 3250 6950 3250
+Wire Wire Line
+	6650 3350 6950 3350
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 6260AA19
+P 7150 2950
+F 0 "J1" H 7230 2942 50  0000 L CNN
+F 1 "DEBUG_HEADER" H 7230 2851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7150 2950 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    7150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 6251B128
+P 7150 3850
+F 0 "J2" H 7230 3842 50  0000 L CNN
+F 1 "POWER_HEADER" H 7230 3751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7150 3850 50  0001 C CNN
+F 3 "~" H 7150 3850 50  0001 C CNN
+	1    7150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4250 6950 4550
+Wire Wire Line
+	6950 3950 6950 4050
+Connection ~ 6950 4250
+Connection ~ 6950 4050
+Wire Wire Line
+	6950 4050 6950 4150
+Connection ~ 6950 4150
+Wire Wire Line
+	6950 4150 6950 4250
+$Comp
+L Device:Battery BT1
+U 1 1 625330C4
+P 4300 3450
+F 0 "BT1" H 4408 3496 50  0000 L CNN
+F 1 "Battery" H 4408 3405 50  0000 L CNN
+F 2 "Battery:BatteryHolder_BC2AAPC" V 4300 3510 50  0001 C CNN
+F 3 "~" V 4300 3510 50  0001 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 6253333E
+P 5300 4000
+F 0 "J3" V 5173 4180 50  0000 L CNN
+F 1 "Conn_01x04" V 5264 4180 50  0000 L CNN
+F 2 "keygame:MT3608_MODULE" H 5300 4000 50  0001 C CNN
+F 3 "~" H 5300 4000 50  0001 C CNN
+	1    5300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 62533D85
+P 4300 4050
+F 0 "#PWR0101" H 4300 3800 50  0001 C CNN
+F 1 "GND" V 4305 3922 50  0000 R CNN
+F 2 "" H 4300 4050 50  0001 C CNN
+F 3 "" H 4300 4050 50  0001 C CNN
+	1    4300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3650 4300 3750
+Wire Wire Line
+	5100 3800 5100 3750
+Wire Wire Line
+	5100 3750 4300 3750
+Connection ~ 4300 3750
+Wire Wire Line
+	4300 3750 4300 4050
+Wire Wire Line
+	5400 3800 5400 3750
+Wire Wire Line
+	5400 3750 5100 3750
+Connection ~ 5100 3750
+Wire Wire Line
+	4300 3250 4300 3150
+Wire Wire Line
+	4300 3150 5200 3150
+Wire Wire Line
+	5200 3150 5200 3800
+$Comp
+L Jumper:Jumper_3_Bridged12 JP1
+U 1 1 6253721A
+P 5300 3000
+F 0 "JP1" H 5300 3204 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 5300 3113 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels" H 5300 3000 50  0001 C CNN
+F 3 "~" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 625372D0
+P 5650 3000
+F 0 "#PWR0102" H 5650 2850 50  0001 C CNN
+F 1 "+5V" V 5665 3128 50  0000 L CNN
+F 2 "" H 5650 3000 50  0001 C CNN
+F 3 "" H 5650 3000 50  0001 C CNN
+	1    5650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 625390C3
+P 4950 3000
+F 0 "#PWR0103" H 4950 2850 50  0001 C CNN
+F 1 "+3V3" V 4965 3128 50  0000 L CNN
+F 2 "" H 4950 3000 50  0001 C CNN
+F 3 "" H 4950 3000 50  0001 C CNN
+	1    4950 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 3000 5050 3000
+Wire Wire Line
+	5550 3000 5650 3000
+$Comp
+L Device:D D1
+U 1 1 6253C1E1
+P 5300 3450
+F 0 "D1" V 5254 3529 50  0000 L CNN
+F 1 "D" V 5345 3529 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 5300 3450 50  0001 C CNN
+F 3 "~" H 5300 3450 50  0001 C CNN
+	1    5300 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 3800 5300 3600
+Wire Wire Line
+	5300 3300 5300 3150
+$EndSCHEMATC

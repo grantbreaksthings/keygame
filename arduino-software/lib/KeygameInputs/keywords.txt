@@ -1,0 +1,3 @@
+Keygame		KEYWORD1
+buttons		KEYWORD2
+KeygameInputs	KEYWORD2
