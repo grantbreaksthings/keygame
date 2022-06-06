@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name Seeeduino_XIAO)(type Legacy)(uri "/home//Downloads/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
-  (lib (name keygame)(type Legacy)(uri /home//projects/keygame/pcb-hardware/keygame/keygame.lib)(options "")(descr ""))
-  (lib (name brains-rescue)(type Legacy)(uri /home//projects/buggyboy/hardware/buggyboy/brains-rescue.lib)(options "")(descr ""))
+  (lib (name Seeeduino_XIAO)(type Legacy)(uri "${KIPRJMOD}/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name keygame)(type Legacy)(uri ${KIPRJMOD}/keygame.lib)(options "")(descr ""))
 )
