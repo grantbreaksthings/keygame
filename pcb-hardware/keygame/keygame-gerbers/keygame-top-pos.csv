@@ -1,17 +1,1 @@
-Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,140,-89,180,top
-C2,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,136,-83,0,top
-C3,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,148.975,-80,180,top
-C4,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,140,-71,180,top
-C5,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,185,-79,180,top
-C6,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,166,-81,180,top
-C7,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,173.99,-72.7,180,top
-R1,100,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,183,-61,0,top
-R2,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,140,-69,180,top
-R3,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,140,-87,180,top
-R4,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,136,-85,0,top
-R5,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,149,-78,180,top
-R6,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,185,-81,180,top
-R7,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,165.975,-79,180,top
-R8,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,163,-74,270,top
-R9,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,166,-74,270,top
+Ref,Val,Package,PosX,PosY,Rot,Side

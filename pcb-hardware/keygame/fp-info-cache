@@ -1,4 +1,4 @@
-19019763042668733
+19026242975153733
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83027,6 +83027,13 @@ varistor SIOV
 2
 2
 keygame
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+keygame
 DCDC_STEPDOWN_MODULE
 
 
@@ -83034,12 +83041,26 @@ DCDC_STEPDOWN_MODULE
 4
 4
 keygame
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
+keygame
 MT3608_MODULE
 
 
 0
 4
 4
+keygame
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
 keygame
 SIG
 
@@ -83068,6 +83089,13 @@ Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
 0
 20
 20
+keygame
+USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
 keygame
 asteroids
 
